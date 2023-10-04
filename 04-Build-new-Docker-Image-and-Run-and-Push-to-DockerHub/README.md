@@ -44,3 +44,6 @@ docker push <your-docker-hub-id>/mynginx_image1:v1-release
 ## Step-5: Verify the same on docker hub
 - Login to docker hub and verify the image we have pushed
 - Url: https://hub.docker.com/repositories
+
+## step-6: Remove docker image
+ - docker rm $(docker ps -a -q)
